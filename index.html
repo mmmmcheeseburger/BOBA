@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boba Drops | Simple Boba Website</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <!-- Floating boba pearls  -->
+    <div id="bobaFloat" class="boba-float" aria-hidden="true"></div>
+
+    <header class="top">
+      <nav class="nav">
+        <div class="brand">
+          <span class="brand-dot"></span>
+          <span class="brand-text">Boba Drops</span>
+        </div>
+
+        <div class="nav-links">
+          <a href="#what">What</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <a class="nav-cta" href="#menu">Get boba</a>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-inner">
+          <h1 class="hero-title">boba <span class="shine">drops</span></h1>
+
+          <p class="hero-sub">
+            A simple boba website with a clean layout, smooth buttons, and
+            floating pearls. Built to look good and be easy to edit.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#menu">Get your boba</a>
+            <a class="btn ghost" href="#gallery">See pics</a>
+            <button class="btn soft" id="togglePearls" type="button">
+              Pause pearls
+            </button>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-num">4</div>
+              <div class="stat-label">Top flavors</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">2</div>
+              <div class="stat-label">Minutes to order</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">∞</div>
+              <div class="stat-label">Good vibes</div>
+            </div>
+          </div>
+        </div>
+
+        <!--cup -->
+        <div
+          class="hero-card hero-card--better"
+          aria-label="Featured drink card"
+        >
+          <div class="hero-drink-art" aria-hidden="true">
+            <div class="cup">
+              <div class="cup-lid"></div>
+              <div class="cup-straw"></div>
+
+              <div class="cup-body">
+                <div class="cup-ice"></div>
+                <div class="cup-tea"></div>
+
+                <!-- the shine strip for the cup  -->
+                <div class="cup-shine"></div>
+
+                <div class="cup-pearls">
+                  <span class="p"></span><span class="p"></span
+                  ><span class="p"></span><span class="p"></span
+                  ><span class="p"></span><span class="p"></span
+                  ><span class="p"></span><span class="p"></span
+                  ><span class="p"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- dotsor the boba  -->
+            <div class="hero-dots"><span></span><span></span><span></span></div>
+          </div>
+
+          <div class="hero-card-text">
+            <h2>Brown Sugar Milk Tea</h2>
+            <p>Creamy + sweet, classic pearls, and it looks fire in pics.</p>
+
+            <!-- NEW: tags -->
+            <div class="hero-tags">
+              <span>Best seller</span>
+              <span>Classic</span>
+              <span>Sweet</span>
+            </div>
+
+            <a class="mini-link mini-link--btn" href="#gallery"
+              >See it in the gallery →</a
+            >
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- WHAT lol -->
+      <section class="section" id="what">
+        <div class="section-title">
+          <h2>What?</h2>
+          <p>Quick steps. Easy vibe. No clutter.</p>
+        </div>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3>1) Pick your tea</h3>
+            <p>
+              Milk tea, fruit tea, matcha — whatever you like. (You can change
+              the menu below anytime.)
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>2) Choose your pearls</h3>
+            <p>Classic tapioca pearls, less ice, extra sweet… make it yours.</p>
+          </article>
+
+          <article class="card">
+            <h3>3) Snap a pic</h3>
+            <p>
+              Boba is basically built for photos. Check the gallery for inspo.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>4) Enjoy</h3>
+            <p>That first sip hits different. Especially with extra boba.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- MENU -->
+      <section class="section alt" id="menu">
+        <div class="section-title">
+          <h2>Menu</h2>
+          <p>Simple + clean. Four favorites.</p>
+        </div>
+
+        <div class="menu">
+          <div class="menu-item">
+            <div class="menu-top">
+              <h3>Brown Sugar Milk Tea</h3>
+              <span class="price">$5</span>
+            </div>
+            <p>Rich milk tea + caramel vibe + classic pearls.</p>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-top">
+              <h3>Taro Milk Tea</h3>
+              <span class="price">$5</span>
+            </div>
+            <p>Sweet taro flavor that tastes like dessert.</p>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-top">
+              <h3>Matcha Latte Boba</h3>
+              <span class="price">$6</span>
+            </div>
+            <p>Matcha + milk + pearls = smooth and strong.</p>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-top">
+              <h3>Mango Fruit Tea</h3>
+              <span class="price">$5</span>
+            </div>
+            <p>Fresh, fruity, and super refreshing.</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div>
+            <h3>Want the pics?</h3>
+            <p>I added boba photo links you can click + use for inspiration.</p>
+          </div>
+          <a class="btn primary" href="#gallery">Go to gallery</a>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section" id="gallery">
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Click the links if you want the original image pages.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="shot">
+            <img
+              src="radom boba.jpg"
+              alt="Colorful boba teas with straws"
+              loading="lazy"
+            />
+            <figcaption>
+              Colorful boba lineup —
+              <a
+                href="https://unsplash.com/photos/four-colorful-boba-teas-with-straws-y8rjmtsq0lE"
+                target="_blank"
+                rel="noreferrer"
+                >image link</a
+              >
+            </figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              src="bobain hand.webp"
+              alt="Hand holding a bubble tea"
+              loading="lazy"
+            />
+            <figcaption>
+              Hand holding boba —
+              <a
+                href="https://unsplash.com/photos/hand-holding-a-refreshing-bubble-tea-OFPGkd2swUM"
+                target="_blank"
+                rel="noreferrer"
+                >image link</a
+              >
+            </figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              src="imag boba.webp"
+              alt="Random boba tea photo"
+              loading="lazy"
+            />
+            <figcaption>
+              Random boba photo —
+              <a
+                href="https://unsplash.com/s/photos/boba-tea"
+                target="_blank"
+                rel="noreferrer"
+                >more pics</a
+              >
+            </figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img src="oooo.jpg" alt="Random bubble tea photo" loading="lazy" />
+            <figcaption>
+              Random bubble tea —
+              <a
+                href="https://unsplash.com/s/photos/bubble-tea"
+                target="_blank"
+                rel="noreferrer"
+                >more pics</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section alt" id="faq">
+        <div class="section-title">
+          <h2>FAQ</h2>
+          <p>Little answers, no essay.</p>
+        </div>
+
+        <div class="faq">
+          <details class="qa">
+            <summary>Can I change the colors?</summary>
+            <p>
+              Yup — open <b>styles.css</b> and edit the <b>:root</b> variables.
+            </p>
+          </details>
+
+          <details class="qa">
+            <summary>How do I add more drinks?</summary>
+            <p>
+              Copy one <b>.menu-item</b> block in the menu section and paste it.
+            </p>
+          </details>
+
+          <details class="qa">
+            <summary>How do the pearls float?</summary>
+            <p>
+              The JS creates tiny circles and animates them upward with CSS. You
+              can pause it with the button.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Made with ☕ + boba vibes.
+        <span class="muted">Edit it however you want.</span>
+      </p>
+    </footer>
+
+    <!--main js  -->
+    <script src="mainjs.js"></script>
+  </body>
+</html>
